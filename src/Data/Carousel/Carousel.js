@@ -13,8 +13,8 @@ export const carouselData = [
     image: slideB,
   },
   {
-    title: "Title 2",
-    caption: "Description 2",
+    title: "Title 3",
+    caption: "Description 3",
     image: slideC,
   },
 ];
