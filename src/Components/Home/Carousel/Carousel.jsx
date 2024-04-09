@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 const Carousel = ({ carouselData }) => {
   return (
     <div id="carouselExampleCaptions" className="carousel slide carousel-fade ">
@@ -23,7 +22,8 @@ const Carousel = ({ carouselData }) => {
           >
             <img
               src={item.image}
-              className="d-block w-100 "
+              className="img d-block w-100 "
+              height={500}
               alt={item.title}
             />
             <div className="carousel-caption d-none d-md-block">

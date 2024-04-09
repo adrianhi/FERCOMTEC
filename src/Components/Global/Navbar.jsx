@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
 import logo from "@Images/Navbar/Logo.png";
-export default function Header() {
+export default function Navbar() {
   return (
     <section>
-      <nav className="navbar ">
+      <nav className="navbar float-start ">
         <div className="container">
           <Link className="navbar-brand" to="/">
-            <img src={logo} alt="FERCOMTEC" className="float-start w-25 " />
+            <img src={logo} alt="FERCOMTEC" className="w-25 " />
           </Link>
         </div>
       </nav>
