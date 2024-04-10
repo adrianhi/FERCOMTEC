@@ -18,7 +18,7 @@ export const projects = [
   },
   {
     group: "Desarrollo",
-    name: "Koiné",
+    name: "demb",
     color: "bg-primary",
     shortReview:
       "Koiné” del griego “conocimiento” expresa de manera precisa la esencia de esta jóven propuesta: La combinación de los maravillosos mundos de la ciencia y la cocina.  ",
@@ -34,7 +34,7 @@ export const projects = [
   },
   {
     group: "Cuidados",
-    name: "Koiné",
+    name: "Koné",
     color: "bg-danger",
     shortReview:
       "Koiné” del griego “conocimiento” expresa de manera precisa la esencia de esta jóven propuesta: La combinación de los maravillosos mundos de la ciencia y la cocina.  ",
@@ -50,7 +50,7 @@ export const projects = [
   },
   {
     group: "Turismo",
-    name: "Koiné",
+    name: "oiné",
     color: "bg-success",
     shortReview:
       "Koiné” del griego “conocimiento” expresa de manera precisa la esencia de esta jóven propuesta: La combinación de los maravillosos mundos de la ciencia y la cocina.  ",
@@ -66,7 +66,7 @@ export const projects = [
   },
   {
     group: "Mercadeo",
-    name: "Koiné",
+    name: "Kiné",
     color: "bg-mercadeo",
     shortReview:
       "Koiné” del griego “conocimiento” expresa de manera precisa la esencia de esta jóven propuesta: La combinación de los maravillosos mundos de la ciencia y la cocina.  ",

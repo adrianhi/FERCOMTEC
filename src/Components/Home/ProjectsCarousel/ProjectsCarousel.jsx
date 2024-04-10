@@ -1,4 +1,4 @@
-import "./ProjectsCarousel.css";
+
 import { Carousel } from "primereact/carousel";
 import { projectTemplate } from "./ProjectTemplate/ProjectTemplate";
 import ProjectDropdown from "../ProjectFilter/ProjectDropdown";
