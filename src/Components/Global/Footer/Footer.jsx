@@ -4,7 +4,7 @@ import ig from "@Images/Footer/ig.png"
 export default function Footer ()  {
  
   return(
-    <footer class="bg-footer footer-bold text-center text-lg-start text-white fixed-bottom ">
+    <footer class="bg-footer footer-bold text-center text-lg-start text-white  ">
     <section class="container py-4">
         <div class="d-flex justify-content-center justify-content-lg-between align-items-center">
             <div class="me-lg-5 mb-0 mb-lg-0">
