@@ -1,5 +1,5 @@
 import Header from "@Components/Global/Header";
-import Footer from "@Components/Global/Footer"
+import Footer from "@Components/Global/Footer/Footer";
 import Carousel from "@Components/Home/Carousel/Carousel";
 import { carouselData } from "@Data/Carousel/Carousel";
 import TypewriterComponent from "../Components/Home/About/About";
@@ -16,7 +16,7 @@ function Home() {
         <TypewriterComponent />
       </section>
       <section>
-        <Footer/>
+       <Footer/>
       </section>
     </section>
   );
