@@ -31,6 +31,7 @@ const ProjectsCarousel = ({ projects }) => {
           ]}
           circular
           className="carousel"
+          
         />
       </div>
     </div>

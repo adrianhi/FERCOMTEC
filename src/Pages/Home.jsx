@@ -1,5 +1,5 @@
 import Navbar from "@Components/Global/Navbar";
-import Carousel from "@Components/Home/Carousel/Carousel";
+import ImageCarousel from "../Components/Home/Carousel/ImageCarousel";
 import { carouselData } from "@Data/Carousel/Carousel";
 import TypewriterComponent from "@Components/Home/About/About";
 import { projects } from "../Data/ProjectsCards/ProjectsCardsCata";
@@ -11,7 +11,7 @@ function Home() {
         <Navbar />
       </section>
       <section>
-        <Carousel carouselData={carouselData} />
+        <ImageCarousel carouselData={carouselData} />
       </section>
       <section>
         <TypewriterComponent />

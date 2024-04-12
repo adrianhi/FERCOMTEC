@@ -5,17 +5,19 @@ import "bootstrap/dist/js/bootstrap.js";
 import "primereact/resources/themes/lara-light-cyan/theme.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "@Pages/Home";
-import ProjectDetail from "./Pages/ProjectDetail";
+import ProjectDetail from "@Pages/ProjectDetail";
+import ErrorPage from "@Pages/ErrorPage";
+
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
-    errorElement: <div>Error</div>,
+    errorElement: <ErrorPage />,
   },
   {
     path: "/project/:name",
     element: <ProjectDetail />,
-    errorElement: <div>Error</div>,
+    errorElement: <ErrorPage />,
   },
 ]);
 ReactDOM.createRoot(document.getElementById("root")).render(

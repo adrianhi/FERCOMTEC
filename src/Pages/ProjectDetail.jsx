@@ -3,13 +3,14 @@ import { projects } from "../Data/ProjectsCards/ProjectsCardsCata";
 import Navbar from "@Components/Global/Navbar";
 import Header from "@Components/ProjectDetail/Header/Header";
 import Description from "@Components/ProjectDetail/Description/Description";
+import ErrorPage from "@Pages/ErrorPage";
 
 const ProjectDetail = () => {
   const { name } = useParams();
   const project = projects.find((project) => project.name === name);
 
   if (!project) {
-    return <div>Project not found</div>;
+    return <ErrorPage />;
   }
 
   return (
@@ -20,7 +21,7 @@ const ProjectDetail = () => {
       <section>
         <Header project={project} />
       </section>
-      <section>
+      <section className="d-flex justify-content-center">
         <Description project={project} />
       </section>
     </section>

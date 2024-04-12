@@ -1,0 +1,9 @@
+.custom-panel {
+  width: 80%; /* Default width for smaller screens */
+}
+
+@media screen and (min-width: 992px) {
+  .custom-panel {
+    width: 60%; /* Adjusted width for large screens */
+  }
+}

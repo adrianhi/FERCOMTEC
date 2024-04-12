@@ -1,7 +1,9 @@
 function ErrorPage() {
-  return <div>
-    
-  </div>;
+  return (
+    <div>
+      <span> not found</span>
+    </div>
+  );
 }
 
 export default ErrorPage;

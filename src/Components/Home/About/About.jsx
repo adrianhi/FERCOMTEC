@@ -1,21 +1,24 @@
 import useTypewriter from "@Hooks/useTypeWritter";
 import "./About.css";
+
 const TypewriterComponent = () => {
   const text = "¿Qué es FERCOMTEC?";
   const speed = 200;
   const { displayText, containerRef } = useTypewriter(text, speed);
 
   return (
-    <section className="bg-body-tertiary my-2">
-      <div className="fercomtec-text text-center" ref={containerRef}>
-        <p className="fs-2 fw-bold">{displayText}</p>
+    <section className="about-section mb-5 ">
+      <div className="typewriter-container text-center" ref={containerRef}>
+        <p className="typewriter-text fercomtec-text">{displayText}</p>
       </div>
-      <div>
-        <p className="fs-4 about text-start">
+      <div className="content mx-auto">
+        <p className="about-text">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis,
           distinctio explicabo quibusdam numquam soluta nulla? Tenetur odit enim
-          repellat commodi totam nam libero in. Nihil totam modi autem ex
-          id?Lorem ipsum dolor sit amet consectetur adipisicing elit. A quidem
+          repellat commodi totam nam libero in. Nihil totam modi autem ex id?
+        </p>
+        <p className="about-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. A q\uidem
           iure animi molestiae, fugit cum quasi facere architecto, magni itaque
           beatae, possimus minima voluptate vitae fugiat tempora reiciendis ea
           velit?

@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
 import "../ProjectsCarousel.css";
+
 export const projectTemplate = ({ name, image, group, shortReview, color }) => (
-  <div className="project-item ml-2" key={name}>
+  <div className="project-item p-5" key={name}>
     <img src={image} alt={name} className="w-100" height={350} />
     <div className="p-2">
       <p className="fs-4  fw-bold">{name}</p>
