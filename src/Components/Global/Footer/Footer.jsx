@@ -1,6 +1,6 @@
 import "./Footer.css";
-import ig from "@Images/Footer/ig.png"
 
+        
 export default function Footer ()  {
  
   return(
@@ -12,7 +12,7 @@ export default function Footer ()  {
             </div>
             <div>
                 <a href="https://www.instagram.com/politecnicomariadelaaltagracia/" target="_blank" className="me-4 text-reset">
-                    <img src={ig} alt="Instagram" />
+                    <i className="pi pi-instagram bg-footer" ></i>
                 </a>
             </div>
         </div>
