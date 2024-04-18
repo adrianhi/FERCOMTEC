@@ -1,5 +1,6 @@
-import Navbar from "@Components/Global/Navbar";
 import ImageCarousel from "../Components/Home/Carousel/ImageCarousel";
+import Header from "@Components/Global/Header/Header";
+import Footer from "@Components/Global/Footer/Footer";
 import { carouselData } from "@Data/Carousel/Carousel";
 import TypewriterComponent from "@Components/Home/About/About";
 import { projects } from "../Data/ProjectsCards/ProjectsCardsCata";
@@ -8,7 +9,7 @@ function Home() {
   return (
     <section>
       <section>
-        <Navbar />
+        <Header />
       </section>
       <section>
         <ImageCarousel carouselData={carouselData} />
@@ -18,6 +19,9 @@ function Home() {
       </section>
       <section className="text-center">
         <ProjectsCarousel projects={projects} />
+      </section>
+      <section>
+        <Footer />
       </section>
     </section>
   );
