@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.js";
 import "primereact/resources/themes/lara-light-cyan/theme.css";
+import "primeicons/primeicons.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "@Pages/Home";
 import ProjectDetail from "@Pages/ProjectDetail";
