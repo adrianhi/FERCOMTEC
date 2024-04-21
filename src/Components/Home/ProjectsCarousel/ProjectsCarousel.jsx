@@ -9,7 +9,7 @@ const ProjectsCarousel = ({ projects }) => {
 
   return (
     <div>
-      <h2>Proyectos</h2>
+      <p className="h2">Proyectos</p>
       <div className="d-flex ms-2 my-2">
         <ProjectDropdown
           groups={groups}
@@ -20,18 +20,19 @@ const ProjectsCarousel = ({ projects }) => {
       <div>
         <Carousel
           value={filteredProjects}
-          itemTemplate={projectTemplate}
+          itemTemplate={(project) =>
+            projectTemplate({ ...project, selectedGroup })
+          }
           numVisible={2}
           numScroll={1}
           responsiveOptions={[
             { breakpoint: "1400px", numVisible: 2, numScroll: 1 },
-            { breakpoint: "1199px", numVisible: 2, numScroll: 1 },
-            { breakpoint: "767px", numVisible: 2, numScroll: 1 },
+            { breakpoint: "1199px", numVisible: 1, numScroll: 1 },
+            { breakpoint: "767px", numVisible: 1, numScroll: 1 },
             { breakpoint: "575px", numVisible: 1, numScroll: 1 },
           ]}
           circular
           className="carousel"
-          
         />
       </div>
     </div>

@@ -1,21 +1,46 @@
+//Gestin
 import koine from "@Images/Projects/Gestion/Koine.png";
-import customHub from "@Images/Projects/Desarrollo/customHub.jpeg"
-import jelps from "@Images/Projects/CuidadosA/jelps.jpeg"
-import kidsLand from "@Images/Projects/Gestion/kidsLand.jpeg"
-import rnv from "@Images/Projects/CuidadosA/rnv.jpg"
-import renovaDial from "@Images/Projects/CuidadosA/renovaDial.png"
-import tabletFlow from "@Images/Projects/CuidadosB/tabletFlow.jpg"
-import breathe from "@Images/Projects/CuidadosB/breathe.jpg"
-import weCare from "@Images/Projects/CuidadosB/weCare.jpg"
-import stepUp from "@Images/Projects/Turismo/stepUp.png"
-import dayFoods from "@Images/Projects/Mercadeo/dayFoods.jpg"
-import energyZone from "@Images/Projects/Gestion/energyZone.jpg"
-import tangHulu from "@Images/Projects/Mercadeo/tangHulu.jpg"
-import ama from "@Images/Projects/Mercadeo/ama.jpg"
+import kidsLand from "@Images/Projects/Gestion/kidsLand.jpeg";
+import energyZone from "@Images/Projects/Gestion/energyZone.jpg";
 
+//Desarrollo
+import customHub from "@Images/Projects/Desarrollo/customHub.jpeg";
+import EducaVision from "@Images/Projects/Desarrollo/EducaVision.png";
 
+//Cuidados A
+import jelps from "@Images/Projects/CuidadosA/jelps.jpeg";
+import rnv from "@Images/Projects/CuidadosA/rnv.jpg";
+import renovaDial from "@Images/Projects/CuidadosA/renovaDial.png";
+//Cuidados B
+import tabletFlow from "@Images/Projects/CuidadosB/tabletFlow.jpg";
+import breathe from "@Images/Projects/CuidadosB/breathe.jpg";
+import weCare from "@Images/Projects/CuidadosB/weCare.jpg";
+//Servicios
+import stepUp from "@Images/Projects/Turismo/stepUp.png";
+//Mercadeo
+import dayFoods from "@Images/Projects/Mercadeo/dayFoods.jpg";
+import tangHulu from "@Images/Projects/Mercadeo/tangHulu.jpg";
+import ama from "@Images/Projects/Mercadeo/ama.jpg";
 
 export const projects = [
+  {
+    group: "Gestión",
+    name: "Kid's Land",
+    color: "bg-gestion",
+    shortReview:
+      "Es una peluquería infantil que ofrece un servicio adecuado a sus edades y necesidades donde los niños pueden ser ellos mismos, pueden experimentar con su estilo y disfrutar del proceso.",
+    longReview:
+      "Kids Land es una peluquería enfocada en el público infantil que busca satisfacer la necesidad de un espacio adecuado y seguro para evitar ambientes tensos y poco propicios para los niños, su objetivo es convertir lo que sería un simple corte de pelo en una experiencia inolvidable que será parte de la infancia de nuestros niños, dejando un impacto positivo y recreativo. De la misma forma, la peluquería se encuentra ambientada desde la bienvenida hasta el último toque con atractivos para los infantes, proporcionando comodidad y seguridad que los niños necesitan. La recepción de bienvenida cuenta con un arco iris de colores y un mural lleno de personajes animados que saludan a los pequeños visitantes. Cada estación de corte está temáticamente decorada con los personajes favoritos de los niños, desde princesas y superhéroes hasta criaturas mágicas. Mientras esperan su turno, los niños pueden disfrutar de una zona de juegos interactiva con pantallas táctiles que muestran animaciones divertidas y juegos educativos relacionados con la temática. ",
+    members: [
+      "Damilmaris García",
+      " Luz Jazmín Medrano Guzmán",
+      "Esmirla Núñez",
+      "Franyelys Trinidad",
+      "Oswalt Peña",
+      "Yenmarith Reyes",
+    ],
+    image: kidsLand,
+  },
   {
     group: "Gestión",
     name: "Koiné",
@@ -57,13 +82,24 @@ export const projects = [
       "CustomHub es una empresa dedicada a la personalización de accesorios electrónicos, ofreciendo una amplia gama de productos para darle un toque único a tu ratón, teclado o mando",
     longReview:
       "CustomHub es una empresa innovadora que te permite expresar tu estilo único a través de accesorios electrónicos personalizados. Ofrecemos una amplia gama de productos para que puedas personalizar tu ratón, teclado mecánico o mando de juego, haciéndolos únicos y reflejando tu personalidad. En CustomHub, creemos que cada persona es diferente y que sus dispositivos electrónicos también deberían serlo. Por eso, te ofrecemos la libertad de elegir entre una gran variedad de diseños, colores y materiales para crear accesorios que sean tan únicos como tú.  ",
-    members: [
-      "José Rincón",
-      "Keury Ariel",
-      "Cristal Morezux",
-      "Elvis Cáceres",
-    ],
+    members: ["José Rincón", "Keury Ariel", "Cristal Morezux", "Elvis Cáceres"],
     image: customHub,
+  },
+  {
+    group: "Desarrollo",
+    name: "EducaVision",
+    color: "bg-primary",
+    shortReview:
+      "Ofrece un  monitoreo exhaustivo y una visualización clara de la interacción entre maestros y estudiantes.",
+    longReview:
+      "EducaVision es una plataforma educativa virtual diseñada para proporcionar a los administradores  un monitoreo exhaustivo y una visualización clara de la interacción entre maestros y estudiantes. Con características como seguimiento en tiempo real de actividades en el aula virtual, participación estudiantil y entrega de tareas, EducaVision ofrece herramientas de análisis para evaluar el rendimiento, identificar áreas de mejora y optimizar la experiencia educativa. Priorizando la seguridad y la privacidad de los datos, esta plataforma busca mejorar la gestión educativa en entornos virtuales con una interfaz intuitiva y servicios de soporte para garantizar su eficaz implementación.",
+    members: [
+      "Adrian Hidalgo",
+      "Ronni Rosario",
+      "Enmanuel Ferreira",
+      "Francisco Sanchez",
+    ],
+    image: EducaVision,
   },
   {
     group: "Cuidados",
@@ -80,24 +116,6 @@ export const projects = [
       "Jasly Gonzalez",
     ],
     image: jelps,
-  },
-  {
-    group: "Gestión",
-    name: "Kid's Land",
-    color: "bg-gestion",
-    shortReview:
-      "Es una peluquería infantil que ofrece un servicio adecuado a sus edades y necesidades donde los niños pueden ser ellos mismos, pueden experimentar con su estilo y disfrutar del proceso.",
-    longReview:
-      "Kids Land es una peluquería enfocada en el público infantil que busca satisfacer la necesidad de un espacio adecuado y seguro para evitar ambientes tensos y poco propicios para los niños, su objetivo es convertir lo que sería un simple corte de pelo en una experiencia inolvidable que será parte de la infancia de nuestros niños, dejando un impacto positivo y recreativo. De la misma forma, la peluquería se encuentra ambientada desde la bienvenida hasta el último toque con atractivos para los infantes, proporcionando comodidad y seguridad que los niños necesitan. La recepción de bienvenida cuenta con un arco iris de colores y un mural lleno de personajes animados que saludan a los pequeños visitantes. Cada estación de corte está temáticamente decorada con los personajes favoritos de los niños, desde princesas y superhéroes hasta criaturas mágicas. Mientras esperan su turno, los niños pueden disfrutar de una zona de juegos interactiva con pantallas táctiles que muestran animaciones divertidas y juegos educativos relacionados con la temática. ",
-    members: [
-      "Damilmaris García",
-      " Luz Jazmín Medrano Guzmán",
-      "Esmirla Núñez",
-      "Franyelys Trinidad",
-      "Oswalt Peña",
-      "Yenmarith Reyes",
-    ],
-    image: kidsLand,
   },
   {
     group: "Cuidados",
@@ -167,23 +185,6 @@ export const projects = [
     image: weCare,
   },
   {
-    group: "Turismo",
-    name: "Step Up",
-    color: "bg-succes",
-    shortReview:
-      "Propone impulsar nuevos emprendimientos, a través de la promoción de cada uno de estos mediante ferias, congresos, conferencias o promoción digital.",
-    longReview:
-      "El nombre 'Step Up' refleja su objetivo de promover y respaldar nuevos emprendimientos. Transmitiendo la idea de avanzar y progresar, tanto a nivel personal como profesional, en inglés, 'step up' significa tomar acción para mejorar una situación, lo que se alinea perfectamente con el propósito de impulsar el éxito empresarial. Además, transmite un sentido de apoyo y empoderamiento para aquellos que dan el paso de iniciar un nuevo negocio. El proyecto de negocios propone impulsar nuevos emprendimientos, a través de la promoción de cada uno de estos mediante ferias, congresos, conferencias o promoción digital. Igualmente, se encargará de crear un enlace inversionista-emprendedor, buscando a los mejores inversionistas del país, o del mundo.     ",
-    members: [
-      "Georgina Medrano Rodríguez",
-      "Johanmys Mabel Gomera Morfe ",
-      "Allison Yalinee Adames Seijo",
-      "Ashley Nicole Pérez López",
-     
-    ],
-    image: stepUp,
-  },
-  {
     group: "Cuidados",
     name: "Breathe",
     color: "bg-danger",
@@ -199,6 +200,22 @@ export const projects = [
       "Scarlet Díaz",
     ],
     image: breathe,
+  },
+  {
+    group: "Servicios",
+    name: "Step Up",
+    color: "bg-success",
+    shortReview:
+      "Propone impulsar nuevos emprendimientos, a través de la promoción de cada uno de estos mediante ferias, congresos, conferencias o promoción digital.",
+    longReview:
+      "El nombre 'Step Up' refleja su objetivo de promover y respaldar nuevos emprendimientos. Transmitiendo la idea de avanzar y progresar, tanto a nivel personal como profesional, en inglés, 'step up' significa tomar acción para mejorar una situación, lo que se alinea perfectamente con el propósito de impulsar el éxito empresarial. Además, transmite un sentido de apoyo y empoderamiento para aquellos que dan el paso de iniciar un nuevo negocio. El proyecto de negocios propone impulsar nuevos emprendimientos, a través de la promoción de cada uno de estos mediante ferias, congresos, conferencias o promoción digital. Igualmente, se encargará de crear un enlace inversionista-emprendedor, buscando a los mejores inversionistas del país, o del mundo.     ",
+    members: [
+      "Georgina Medrano Rodríguez",
+      "Johanmys Mabel Gomera Morfe ",
+      "Allison Yalinee Adames Seijo",
+      "Ashley Nicole Pérez López",
+    ],
+    image: stepUp,
   },
   {
     group: "Mercadeo",
@@ -254,7 +271,7 @@ export const projects = [
       "Mariam Tejeda",
       "Lia Brujan",
       "Thayri Aguasvivas",
-      "Audrey Moquete",     
+      "Audrey Moquete",
     ],
     image: ama,
   },

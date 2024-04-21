@@ -8,7 +8,7 @@ const MyCarousel = ({ carouselData }) => {
           src={item.image}
           alt={item.title}
           className="rounded mx-auto d-block img-fluid "
-          style={{width: '1000px'}}
+          style={{ width: "1000px" }}
         />
         <div className="carousel-caption">
           <h4>{item.title}</h4>
@@ -24,7 +24,6 @@ const MyCarousel = ({ carouselData }) => {
       itemTemplate={itemTemplate}
       circular
       autoplayInterval={3000}
-      indicators
     />
   );
 };
