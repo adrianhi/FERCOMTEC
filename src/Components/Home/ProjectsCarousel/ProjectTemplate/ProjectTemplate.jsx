@@ -1,27 +1,23 @@
 import { Link } from "react-router-dom";
 import "../ProjectsCarousel.css";
 
-export const projectTemplate = ({
-  name,
-  image,
-  group,
-  shortReview,
-  color,
-  selectedGroup,
-}) => (
+export const projectTemplate = (
+  { name, image, group, shortReview, color },
+  selectedGroup
+) => (
   <div
-    className={`item-section ${
-      selectedGroup === "Servicios" && " w-50 mx-auto"
-    }`}
+    className={
+      selectedGroup === "Servicios" ? "servicios-project" : "project-item"
+    }
     key={name}
   >
-    <img src={image} alt={name} height={350} />
+    <img src={image} alt={name} className="img-item"  />
     <div className="p-2">
-      <p className="fs-3 fw-bold">{name}</p>
+      <p className="fs-4  fw-bold">{name}</p>
       <div className="w-50 mx-auto">
         <p className={`${color} rounded text-white text-center`}>{group}</p>
       </div>
-      <p className="text-bold review ">{shortReview}</p>
+      <p className="text-bold text-center ">{shortReview}</p>
       <div className="d-flex justify-content-center">
         <Link
           to={`/project/${name}`}

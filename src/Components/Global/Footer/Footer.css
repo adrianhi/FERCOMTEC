@@ -1,5 +1,5 @@
 .bg-footer {
-  background-color: #5a1769;
+  background-color: rgb(64, 128, 223);
 }
 .footer-bold {
   font-weight: bold;
@@ -15,5 +15,5 @@
   border-radius: 50%;
   background-color: white;
   padding: 0.5rem;
-  color: #5a1769;
+  color: rgb(64, 128, 223);
 }

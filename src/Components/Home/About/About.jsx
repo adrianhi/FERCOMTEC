@@ -13,15 +13,7 @@ const TypewriterComponent = () => {
       </div>
       <div className="content mx-auto">
         <p className="about-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis,
-          distinctio explicabo quibusdam numquam soluta nulla? Tenetur odit enim
-          repellat commodi totam nam libero in. Nihil totam modi autem ex id?
-        </p>
-        <p className="about-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. A q\uidem
-          iure animi molestiae, fugit cum quasi facere architecto, magni itaque
-          beatae, possimus minima voluptate vitae fugiat tempora reiciendis ea
-          velit?
+        La Feria de Competencias Técnicas (FERCOMTEC) concentra el resultado de los trabajos desarrollados en los diferentes módulos técnicos de los estudiantes finalistas.
         </p>
       </div>
     </section>
