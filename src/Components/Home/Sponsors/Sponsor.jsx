@@ -1,13 +1,17 @@
-import "./Sponsor.css"
+import "./Sponsor.css";
 import priceSmart from "@Images/Sponsor/priceSmart.png";
 import onapi from "@Images/Sponsor/onapi.png";
 import cmr from "@Images/Sponsor/cmr.png";
-
+import useAos from "@Hooks/useAos";
 const SponsorSection = () => {
+  useAos(2000);
   return (
     <div className=" w-100 my-5 ">
       <h2 className="text-center mb-4">Nuestros Patrocinadores</h2>
-      <div className="row justify-content-center align-items-center">
+      <div
+        className="row justify-content-center align-items-center"
+        data-aos="fade-left"
+      >
         <div className="col-md-4 col-sm-6 col-8 mb-4 sponsor-style">
           <img src={priceSmart} alt="PriceSmart" className="img-fluid" />
         </div>

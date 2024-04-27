@@ -2,8 +2,10 @@ import { Carousel } from "primereact/carousel";
 import { projectTemplate } from "./ProjectTemplate/ProjectTemplate";
 import ProjectDropdown from "../ProjectFilter/ProjectDropdown";
 import { useProjectFilter } from "@Hooks/useProjectFilter";
+import useAos from "@Hooks/useAos";
 
 const ProjectsCarousel = ({ projects }) => {
+  useAos(2000);
   const { selectedGroup, groups, filteredProjects, handleGroupChange } =
     useProjectFilter(projects);
 
@@ -35,6 +37,7 @@ const ProjectsCarousel = ({ projects }) => {
             ]}
             circular
             className="carousel"
+            data-aos="fade-up"
           />
         </div>
       ) : (

@@ -25,7 +25,7 @@ const ProjectDetail = () => {
       <section className="d-flex justify-content-center">
         <Description project={project} />
       </section>
-      <section className="float-end mx-4 my-5">
+      <section className="float-end mx-2 my-5">
         <Contact />
       </section>
     </section>
