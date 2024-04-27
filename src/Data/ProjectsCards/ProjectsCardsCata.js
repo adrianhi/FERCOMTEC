@@ -1,4 +1,4 @@
-//Gestin
+//Gestión
 import koine from "@Images/Projects/Gestion/Koine.png";
 import kidsLand from "@Images/Projects/Gestion/kidsLand.jpeg";
 import energyZone from "@Images/Projects/Gestion/energyZone.jpg";
@@ -67,8 +67,8 @@ export const projects = [
       "Koiné es una iniciativa basada en la combinación de las ciencias biológicas y químicas aplicadas a un ámbito familiar como la cocina. Ofrecemos clases de ciencias orientadas a la comida, con el propósito principal de educar a la población en el comer, para así combatir la alarmante problemática de los trastornos de la conducta alimentaria, que asedian y arrebatan la vida de miles de jóvenes alrededor de todo el mundo.  ",
     members: [
       "Stanley Almengot",
-      "Angelly Mejía",
-      "Ashley Oliver",
+      "Angely Mejía",
+      "Ashley Olivero",
       "Franyelys Trinidad",
     ],
     image: koine,
