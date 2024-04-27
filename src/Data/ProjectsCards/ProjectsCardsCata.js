@@ -218,7 +218,7 @@ export const projects = [
     image: stepUp,
   },
   {
-    group: "Comercio y mercadeo",
+    group: "Comercio y Mercadeo",
     name: "DAYFOODS",
     color: "bg-mercadeo",
     shortReview:
