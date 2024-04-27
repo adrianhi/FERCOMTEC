@@ -50,9 +50,8 @@ export const projects = [
       "Kids Land es una peluquería enfocada en el público infantil que busca satisfacer la necesidad de un espacio adecuado y seguro para evitar ambientes tensos y poco propicios para los niños, su objetivo es convertir lo que sería un simple corte de pelo en una experiencia inolvidable que será parte de la infancia de nuestros niños, dejando un impacto positivo y recreativo. De la misma forma, la peluquería se encuentra ambientada desde la bienvenida hasta el último toque con atractivos para los infantes, proporcionando comodidad y seguridad que los niños necesitan.",
     members: [
       "Damilmaris García",
-      " Luz Jazmín Medrano Guzmán",
+      "Luz Jazmín Medrano Guzmán",
       "Esmirla Núñez",
-      "Franyelys Trinidad",
       "Oswalt Peña",
       "Yenmarith Reyes",
     ],
