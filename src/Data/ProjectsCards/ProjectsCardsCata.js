@@ -24,7 +24,7 @@ import ama from "@Images/Projects/Mercadeo/ama.jpg";
 
 export const projects = [
   {
-    group: "Gestión",
+    group: "Gestión administrativa y tributaria",
     name: "Energy",
     color: "bg-gestion",
     shortReview:
@@ -41,7 +41,7 @@ export const projects = [
     image: energyZone,
   },
   {
-    group: "Gestión",
+    group: "Gestión administrativa y tributaria",
     name: "Kid's Land",
     color: "bg-gestion",
     shortReview:
@@ -59,7 +59,7 @@ export const projects = [
     image: kidsLand,
   },
   {
-    group: "Gestión",
+    group: "Gestión administrativa y tributaria",
     name: "Koiné",
     color: "bg-gestion",
     shortReview:
@@ -75,7 +75,7 @@ export const projects = [
     image: koine,
   },
   {
-    group: "Desarrollo",
+    group: "Desarrollo y administración de apicaciones informáticas",
     name: "CustomHub",
     color: "bg-primary",
     shortReview:
@@ -86,7 +86,7 @@ export const projects = [
     image: customHub,
   },
   {
-    group: "Desarrollo",
+    group: "Desarrollo y administración de apicaciones informáticas",
     name: "EducaVision",
     color: "bg-primary",
     shortReview:
@@ -102,7 +102,7 @@ export const projects = [
     image: EducaVision,
   },
   {
-    group: "Cuidados",
+    group: "Cuidados de Enfermería Promoción de la salud",
     name: "Centro JELPS",
     color: "bg-danger",
     shortReview:
@@ -118,7 +118,7 @@ export const projects = [
     image: jelps,
   },
   {
-    group: "Cuidados",
+    group: "Cuidados de Enfermería Promoción de la salud",
     name: "RNV",
     color: "bg-danger",
     shortReview:
@@ -134,7 +134,7 @@ export const projects = [
     image: rnv,
   },
   {
-    group: "Cuidados",
+    group: "Cuidados de Enfermería Promoción de la salud",
     name: "Renova Dial",
     color: "bg-danger",
     shortReview:
@@ -151,7 +151,7 @@ export const projects = [
     image: renovaDial,
   },
   {
-    group: "Cuidados",
+    group: "Cuidados de Enfermería Promoción de la salud",
     name: "Tablet Flow",
     color: "bg-danger",
     shortReview:
@@ -168,7 +168,7 @@ export const projects = [
     image: tabletFlow,
   },
   {
-    group: "Cuidados",
+    group: "Cuidados de Enfermería Promoción de la salud",
     name: "WECARE",
     color: "bg-danger",
     shortReview:
@@ -185,7 +185,7 @@ export const projects = [
     image: weCare,
   },
   {
-    group: "Cuidados",
+    group: "Cuidados de Enfermería Promoción de la salud",
     name: "Breathe",
     color: "bg-danger",
     shortReview:
@@ -202,7 +202,7 @@ export const projects = [
     image: breathe,
   },
   {
-    group: "Servicios",
+    group: "Servicios Turísticos",
     name: "Step Up",
     color: "bg-success",
     shortReview:
@@ -218,7 +218,7 @@ export const projects = [
     image: stepUp,
   },
   {
-    group: "Mercadeo",
+    group: "Comercio y mercadeo",
     name: "DAYFOODS",
     color: "bg-mercadeo",
     shortReview:
@@ -237,7 +237,7 @@ export const projects = [
     image: dayFoods,
   },
   {
-    group: "Mercadeo",
+    group: "Comercio y mercadeo",
     name: "TangHulu",
     color: "bg-mercadeo",
     shortReview:
@@ -257,7 +257,7 @@ export const projects = [
     image: tangHulu,
   },
   {
-    group: "Mercadeo",
+    group: "Comercio y mercadeo",
     name: "AMA",
     color: "bg-mercadeo",
     shortReview:

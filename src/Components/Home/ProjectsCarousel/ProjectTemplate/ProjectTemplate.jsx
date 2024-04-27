@@ -13,7 +13,7 @@ export const projectTemplate = (
   >
     <img src={image} alt={name} className="img-item"  />
     <div className="p-2">
-      <p className="fs-4  fw-bold">{name}</p>
+      <p className="fw-bold">{name}</p>
       <div className="w-50 mx-auto">
         <p className={`${color} rounded text-white text-center`}>{group}</p>
       </div>
