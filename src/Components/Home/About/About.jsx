@@ -1,22 +1,27 @@
-// TypewriterComponent.js
-import useTypewriter from "@Hooks/Typewritter";
+import useTypewriter from "@Hooks/useTypeWritter";
 import "./About.css";
+import Contact from "@Components/Global/Contact/Contact";
+import useAos from "@Hooks/useAos";
 const TypewriterComponent = () => {
+  useAos(1000);
   const text = "¿Qué es FERCOMTEC?";
   const speed = 200;
   const { displayText, containerRef } = useTypewriter(text, speed);
 
   return (
-    <section className="bg-body-tertiary my-2">
-      <div className="fercomtec-text text-center" ref={containerRef}>
-        <p className="fs-2 fw-bold">{displayText}</p>
+    <section className="about-section mb-5 ">
+      <div className="typewriter-container text-center" ref={containerRef}>
+        <p className="typewriter-text fercomtec-text">{displayText}</p>
       </div>
-      <div>
-        <p className="fs-5 text-justify">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis,
-          distinctio explicabo quibusdam numquam soluta nulla? Tenetur odit enim
-          repellat commodi totam nam libero in. Nihil totam modi autem ex id?
+      <div className="content mx-auto">
+        <p className="about-text" data-aos="fade-left">
+          La Feria de Competencias Técnicas (FERCOMTEC) concentra el resultado
+          de los trabajos desarrollados en los diferentes módulos técnicos de
+          los estudiantes finalistas.
         </p>
+      </div>
+      <div className="text-center" data-aos="fade-left">
+        <Contact />
       </div>
     </section>
   );

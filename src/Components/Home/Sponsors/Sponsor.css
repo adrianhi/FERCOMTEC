@@ -1,0 +1,9 @@
+
+
+.sponsor-style {
+  transition: transform 0.3s ease-in-out;
+}
+
+.sponsor-style:hover {
+  transform: scale(1.05);
+}
