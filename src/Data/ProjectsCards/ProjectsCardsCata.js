@@ -62,7 +62,7 @@ export const projects = [
     name: "Koiné",
     color: "bg-gestion",
     shortReview:
-      "Koiné” del griego “conocimiento” expresa de manera precisa la esencia de esta jóven propuesta: La combinación de los maravillosos mundos de la ciencia y la cocina.  ",
+      "Koiné del griego “conocimiento” expresa de manera precisa la esencia de esta jóven propuesta: La combinación de los maravillosos mundos de la ciencia y la cocina.  ",
     longReview:
       "Koiné es una iniciativa basada en la combinación de las ciencias biológicas y químicas aplicadas a un ámbito familiar como la cocina. Ofrecemos clases de ciencias orientadas a la comida, con el propósito principal de educar a la población en el comer, para así combatir la alarmante problemática de los trastornos de la conducta alimentaria, que asedian y arrebatan la vida de miles de jóvenes alrededor de todo el mundo.  ",
     members: [
@@ -260,7 +260,7 @@ export const projects = [
     name: "AMA",
     color: "bg-mercadeo",
     shortReview:
-      "Será un espacio único en donde los adolescentes y adultos jóvenespueden liberar su creatividad pintando y diseñando tote bags, macetas y cuadros.",
+      "Será un espacio único en donde los adolescentes y adultos jóvenes pueden liberar su creatividad pintando y diseñando tote bags, macetas y cuadros.",
     longReview:
       "Es un negocio de arte donde los colores, las pinturas y las obras artísticas temantendrán fuera de tu zona de confort, es un lugar en donde podrás disfrutar de las diferentes actividades que se brindan como son; decorar bolsos, pintar platos, macetas, cuadros, tazas y decorar las velas como quieras. Nuestra principal motivación es el buscar que nuestros clientes puedan expresar sus ideas artísticas de distintas maneras y asimismo que  puedan tener un tiempo de calidad entre ellos mismos o acompañados, tanto con amigos como familiares.   ",
     members: [
