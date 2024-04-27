@@ -25,12 +25,29 @@ import ama from "@Images/Projects/Mercadeo/ama.jpg";
 export const projects = [
   {
     group: "Gestión",
+    name: "Energy",
+    color: "bg-gestion",
+    shortReview:
+      "Es una cadena de stands ubicados en gimnasios y centros deportivos, donde se ofrecerá al público snacks y batidos enérgicos para que las personas tengan una opción saludable y cercana  ",
+    longReview:
+      "Energy Zone consiste en stands diseñados con la finalidad de brindar un servicio a centros de entrenamiento físico ubicados en Santo Domingo, con intereses en ofrecer a sus clientes bebidas y snacks saludables que complementen nutrientes con su estilo de vida activo y saludable. Este proyecto cumple con las necesidades que se les presentan a las personas que realizan entrenamiento constantemente, al momento de ingerir suplementos que les brinden energía para realizar sus actividades. Los stands están diseñados para exhibir y vender productos relacionados con la nutrición y rendimiento deportivo como bebidas de proteína, pre-workout y post-workout. A su vez se ofrecerán alimentos rápidos y prácticos para consumir antes o después del entrenamiento. Energy Zone ofrecerá promociones especiales y descuentos  constantemente dependiendo de la frecuencia con la que hagas actividad física en los establecimientos en los que se encuentren ubicados.  ",
+    members: [
+      "Carleny Pichardo",
+      "Alberis Herrera",
+      "Raisy Amparo",
+      "Lizbeth Martínez",
+      "Gladys Mar García",
+    ],
+    image: energyZone,
+  },
+  {
+    group: "Gestión",
     name: "Kid's Land",
     color: "bg-gestion",
     shortReview:
       "Es una peluquería infantil que ofrece un servicio adecuado a sus edades y necesidades donde los niños pueden ser ellos mismos, pueden experimentar con su estilo y disfrutar del proceso.",
     longReview:
-      "Kids Land es una peluquería enfocada en el público infantil que busca satisfacer la necesidad de un espacio adecuado y seguro para evitar ambientes tensos y poco propicios para los niños, su objetivo es convertir lo que sería un simple corte de pelo en una experiencia inolvidable que será parte de la infancia de nuestros niños, dejando un impacto positivo y recreativo. De la misma forma, la peluquería se encuentra ambientada desde la bienvenida hasta el último toque con atractivos para los infantes, proporcionando comodidad y seguridad que los niños necesitan. La recepción de bienvenida cuenta con un arco iris de colores y un mural lleno de personajes animados que saludan a los pequeños visitantes. Cada estación de corte está temáticamente decorada con los personajes favoritos de los niños, desde princesas y superhéroes hasta criaturas mágicas. Mientras esperan su turno, los niños pueden disfrutar de una zona de juegos interactiva con pantallas táctiles que muestran animaciones divertidas y juegos educativos relacionados con la temática. ",
+      "Kids Land es una peluquería enfocada en el público infantil que busca satisfacer la necesidad de un espacio adecuado y seguro para evitar ambientes tensos y poco propicios para los niños, su objetivo es convertir lo que sería un simple corte de pelo en una experiencia inolvidable que será parte de la infancia de nuestros niños, dejando un impacto positivo y recreativo. De la misma forma, la peluquería se encuentra ambientada desde la bienvenida hasta el último toque con atractivos para los infantes, proporcionando comodidad y seguridad que los niños necesitan.",
     members: [
       "Damilmaris García",
       " Luz Jazmín Medrano Guzmán",
@@ -56,23 +73,6 @@ export const projects = [
       "Franyelys Trinidad",
     ],
     image: koine,
-  },
-  {
-    group: "Gestión",
-    name: "Energy",
-    color: "bg-gestion",
-    shortReview:
-      "Es una cadena de stands ubicados en gimnasios y centros deportivos, donde se ofrecerá al público snacks y batidos enérgicos para que las personas tengan una opción saludable y cercana  ",
-    longReview:
-      "Energy Zone consiste en stands diseñados con la finalidad de brindar un servicio a centros de entrenamiento físico ubicados en Santo Domingo, con intereses en ofrecer a sus clientes bebidas y snacks saludables que complementen nutrientes con su estilo de vida activo y saludable. Este proyecto cumple con las necesidades que se les presentan a las personas que realizan entrenamiento constantemente, al momento de ingerir suplementos que les brinden energía para realizar sus actividades. Los stands están diseñados para exhibir y vender productos relacionados con la nutrición y rendimiento deportivo como bebidas de proteína, pre-workout y post-workout. A su vez se ofrecerán alimentos rápidos y prácticos para consumir antes o después del entrenamiento. Energy Zone ofrecerá promociones especiales y descuentos  constantemente dependiendo de la frecuencia con la que hagas actividad física en los establecimientos en los que se encuentren ubicados.  ",
-    members: [
-      "Carleny Pichardo",
-      "Alberis Herrera",
-      "Raisy Amparo",
-      "Lizbeth Martínez",
-      "Gladys Mar García",
-    ],
-    image: energyZone,
   },
   {
     group: "Desarrollo",

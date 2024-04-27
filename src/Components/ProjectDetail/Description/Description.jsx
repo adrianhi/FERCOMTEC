@@ -5,7 +5,7 @@ const Description = ({ project }) => {
     <div className="description-container my-4 ">
       <Panel header="Detalles" className="custom-panel mx-auto">
         <div>
-          <p>{project.longReview}</p>
+          <p className="description-text">{project.longReview}</p>
         </div>
         <div>
           <p>

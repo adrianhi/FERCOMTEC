@@ -17,3 +17,15 @@
   line-height: 1.6;
   color: #666;
 }
+
+@media (min-width: 768px) {
+  .about-text {
+    font-size: 1.4rem; /* Cambia el tamaño del texto para pantallas más grandes */
+  }
+}
+
+@media (min-width: 992px) {
+  .about-text {
+    font-size: 1.6rem; /* Cambia el tamaño del texto para pantallas aún más grandes */
+  }
+}

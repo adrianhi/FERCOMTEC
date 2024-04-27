@@ -1,16 +1,16 @@
 import ImageCarousel from "../Components/Home/Carousel/ImageCarousel";
-import Header from "@Components/Global/Header/Header";
+import Navbar from "@Components/Global/Navbar/Navbar";
 import Footer from "@Components/Global/Footer/Footer";
 import { carouselData } from "@Data/Carousel/Carousel";
 import TypewriterComponent from "@Components/Home/About/About";
 import { projects } from "../Data/ProjectsCards/ProjectsCardsCata";
 import ProjectsCarousel from "../Components/Home/ProjectsCarousel/ProjectsCarousel";
-import { Sponsor } from "@Components/Home/Sponsors/Sponsor";
+import SponsorSection from "@Components/Home/Sponsors/Sponsor";
 function Home() {
   return (
     <section>
       <section>
-        <Header />
+        <Navbar />
       </section>
       <section>
         <ImageCarousel carouselData={carouselData} />
@@ -22,10 +22,10 @@ function Home() {
         <ProjectsCarousel projects={projects} />
       </section>
       <section>
-      <Sponsor/>
+        <SponsorSection />
       </section>
       <section>
-       <Footer/>
+        <Footer />
       </section>
     </section>
   );

@@ -3,17 +3,14 @@ import { Carousel } from "primereact/carousel";
 const MyCarousel = ({ carouselData }) => {
   const itemTemplate = (item) => {
     return (
-      <div className="p-5 d-flex ">
+      <div className="p-5 d-flex align-items-center justify-content-center">
         <img
           src={item.image}
           alt={item.title}
-          className="rounded mx-auto d-block img-fluid "
-          style={{ width: "1000px" }}
+          className="rounded mx-auto d-block img-fluid"
+          style={{ maxWidth: "100%" }}
         />
-        <div className="carousel-caption">
-          <h4>{item.title}</h4>
-          <p>{item.caption}</p>
-        </div>
+       
       </div>
     );
   };
@@ -23,7 +20,7 @@ const MyCarousel = ({ carouselData }) => {
       value={carouselData}
       itemTemplate={itemTemplate}
       circular
-      autoplayInterval={3000}
+      autoplayInterval={5000}
     />
   );
 };
